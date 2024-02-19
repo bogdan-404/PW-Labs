@@ -11,25 +11,21 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
+    font-size: small;
     background-color: #000;
 }
 
-.nav-links .nav-item {
-    display: inline-block;
-    margin-left: 20px;
+.nav-item {
     text-decoration: none;
     color: #fff;
-    font-size: 0.8em;
     transition: color 0.3s ease;
 }
 
-.nav-links .nav-item:hover {
+.nav-item:hover {
     color: #808080;
 }
 
-.logo {
-    font-size: 1.5em;
+#logo {
+    font-size: 2em;
     font-weight: bold;
-    text-decoration: none;
-    color: #fff;
 }
