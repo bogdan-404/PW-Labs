@@ -59,3 +59,28 @@ p {
     max-width: 60%;
     margin-top: 2em;
 }
+
+.button {
+    padding: 10px 20px;
+    background-color: #292929;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #808080;
+    color: #fff;
+}
+
+#primary-button {
+    background-color: rgb(37,171,117);
+}
+
+#primary-button:hover {
+    background-color: rgb(53, 231, 160);
+    color: #fff;
+}
