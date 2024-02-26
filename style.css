@@ -111,6 +111,7 @@ p {
     width: 30%; 
     margin-bottom: 20px; 
     text-align: center; 
+    font-weight: bold;
 }
 
 .car-image {
@@ -195,10 +196,42 @@ p {
     border: none;
     border-radius: 20px; 
     padding: 15px 25px; 
-    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .order-button:hover {
     background-color: #2d8f65; 
+}
+
+.conditions-section {
+    background-color: #000000;
+    padding: 40px; 
+    text-align: center; 
+}
+
+.conditions-title {
+    color: #ffffff; 
+    margin-bottom: 30px; 
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.conditions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+.condition-card {
+    width: 25%; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #000;
+    align-content: center;
 }
