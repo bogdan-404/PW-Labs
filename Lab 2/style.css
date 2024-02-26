@@ -115,6 +115,8 @@ p {
 .car-image {
     width: 100%; 
     border-radius: 10px;
+    height: 250px; 
+    object-fit: cover;
 }
 
 .car-name {
