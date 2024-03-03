@@ -50,12 +50,12 @@ p {
     color: #808080;
 }
 
-.main-text{
+.main-text {
     max-width: 40%;
     margin-top: 1em;
 }
 
-.secondary-text{
+.secondary-text {
     max-width: 60%;
     margin-top: 2em;
 }
@@ -82,11 +82,10 @@ p {
 
 #primary-button:hover {
     background-color: rgb(53, 231, 160);
-    color: #fff;
 }
 
 .car-catalog {
-    background-color: #1e1e1e; 
+    background-color: #1e1e1e;
     padding: 20px;
     color: #fff;
 }
@@ -94,7 +93,7 @@ p {
 .catalog-title {
     font-size: 2em;
     margin-bottom: 20px;
-    text-align: center; 
+    text-align: center;
     font-weight: bold;
     margin-left: 20px;
 }
@@ -102,22 +101,22 @@ p {
 .cars-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-around;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .car-item {
-    width: 30%; 
-    margin-bottom: 20px; 
-    text-align: center; 
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
     font-weight: bold;
 }
 
 .car-image {
-    width: 100%; 
+    width: 100%;
     border-radius: 10px;
-    height: 250px; 
+    height: 250px;
     object-fit: cover;
 }
 
@@ -128,11 +127,11 @@ p {
 
 .car-price {
     font-size: 1em;
-    color: #808080; 
+    color: #808080;
 }
 
 .more-cars-button {
-    margin: 0 20px 20px auto;      
+    margin: 0 20px 20px auto;
 }
 
 .catalog-header {
@@ -143,95 +142,150 @@ p {
 }
 
 .order-now-section {
-    background-color: #fff; 
-    padding: 40px; 
-    border-radius: 25px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    margin: 80px auto; 
-    width: 80%; 
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 80px auto;
+    width: 80%;
 }
 
 .order-now-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .order-now-text {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .order-now-text h2 {
-    color: #000; 
-    font-weight: bold; 
-    font-size: 1.5em; 
-    margin-bottom: 10px; 
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .order-now-text p {
-    color: #000; 
+    color: #000;
     margin: 0;
 }
 
 .order-now-form {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
 }
 
 .phone-input {
-    padding: 15px; 
-    border: 2px solid #000; 
-    border-radius: 20px; 
-    width: 250px; 
-    color: #000; 
-    background-color: #f0f0f0; 
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 250px;
+    color: #000;
+    background-color: #f0f0f0;
 }
 
 .order-button {
-    background-color: #37ab77; 
+    background-color: #37ab77;
     color: white;
     border: none;
-    border-radius: 20px; 
-    padding: 15px 25px; 
-    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    padding: 15px 25px;
 }
 
 .order-button:hover {
-    background-color: #2d8f65; 
+    background-color: #2d8f65;
 }
 
 .conditions-section {
     background-color: #000000;
-    padding: 40px; 
-    text-align: center; 
+    padding: 40px;
+    text-align: center;
 }
 
 .conditions-title {
-    color: #ffffff; 
-    margin-bottom: 30px; 
+    color: #ffffff;
+    margin-bottom: 30px;
     text-align: left;
     font-weight: bold;
-    font-size: 2em; 
+    font-size: 2em;
 }
 
 .conditions-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    gap: 20px; 
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .condition-card {
-    width: 25%; 
-    background-color: #fff; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    padding: 20px; 
-    margin-bottom: 20px; 
-    text-align: center; 
+    width: 25%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
     color: #000;
     align-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    #logo {
+        margin-bottom: 20px;
+    }
+
+    .content-container, .order-now-container {
+        max-width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-text, .secondary-text {
+        max-width: 100%;
+    }
+
+    .cars-container, .conditions-container {
+        flex-direction: column;
+    }
+
+    .car-item, .condition-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .catalog-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more-cars-button {
+        margin: 20px 0;
+    }
+
+    .order-now-text {
+        align-items: center;
+    }
+
+    .order-now-form {
+        flex-direction: column;
+    }
+
+    .phone-input, .order-button {
+        width: 100%;
+    }
 }
