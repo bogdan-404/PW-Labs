@@ -320,3 +320,30 @@ p {
         width: 100%;
     }
 }
+
+.mascot {
+    position: fixed;
+    bottom: 20px; 
+    right: 0%; 
+    width: 150px; 
+    height: auto;
+    opacity: 0; 
+    animation: slideIn 10s infinite alternate, fadeIn 2s forwards 2s; 
+}
+
+@keyframes slideIn {
+    0%, 100% {
+        transform: scaleX(1); 
+        right: 0%; 
+    }
+    50% {
+        transform: scaleX(-1); 
+        right: 20%; 
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
