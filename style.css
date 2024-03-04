@@ -144,6 +144,12 @@ p {
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    .car-item {
+        align-self: center;
+    }
+}
+
 .car-image {
     width: 100%;
     border-radius: 10px;
