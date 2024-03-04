@@ -331,6 +331,12 @@ p {
     animation: slideIn 10s infinite alternate, fadeIn 2s forwards 2s; 
 }
 
+@media (max-width: 768px) {
+    .mascot {
+        width: 100px; 
+    }
+}
+
 @keyframes slideIn {
     0%, 100% {
         transform: scaleX(1); 
