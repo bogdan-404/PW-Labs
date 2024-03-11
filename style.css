@@ -181,7 +181,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-
+/* 
 .order-now-section {
     background-color: #fff;
     padding: 40px;
@@ -240,7 +240,7 @@ p {
 
 .order-button:hover {
     background-color: #2d8f65;
-}
+} */
 
 @media (max-width: 768px) {
     .navbar {
