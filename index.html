@@ -24,9 +24,9 @@
             <a href="#order-now-section" class="nav-item">COMANDA</a>
         </nav>
     </header>
-    <section class="main-content">
+    <section class="main-content bg-black text-light">
         <div class="content-container">
-            <h1 class="main-text">Masini in chirie 24/24</h1>
+            <h1 class="main-text fw-bold">Masini in chirie 24/24</h1>
             <p class="secondary-text">Ai nevoie de o mașină fiabilă pentru o călătorie rapidă în oraș sau pentru o vacanță de neuitat? AutoRent este alegerea perfectă pentru tine! Suntem o agenție de închiriere auto dedicată oferirii unei experiențe fără griji și convenabile pentru clienții noștri.</p>
             <div>
                 <a href="#" class="button" id="primary-button">Catalog</a>
@@ -72,18 +72,26 @@
             </div>
         </div>
     </section>    
-    <section class="order-now-section" id="order-now-section">
-        <div class="order-now-container">
-            <div class="order-now-text">
-                <h2>Comanda acum</h2>
-                <p>Lasa numarul de telefon si noi te contactam</p>
-            </div>
-            <div class="order-now-form">
-                <input type="tel" placeholder="Numarul de telefon" class="phone-input" pattern="[0-9]*">
-                <button type="submit" class="order-button">Comanda</button>
+    <section class="order-now-section py-5 bg-black">
+        <div class="container-order">
+            <div class="card rounded-pill">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-start">
+                            <h2 class="fw-bold">Comanda acum</h2>
+                            <p>Lasa numarul de telefon si noi te contactam</p>
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <form class="d-inline-flex justify-content-md-end">
+                                <input type="tel" class="form-control me-2 btn-dark text-light" placeholder="Numarul de telefon" pattern="[0-9]*">
+                                <button type="submit" class="btn btn-success">Comanda</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>    
+    </section>  
     <section class="car-catalog" id="luxury-cars">
         <div class="catalog-header">
             <h2 class="catalog-title">Masini de Lux</h2>
@@ -122,7 +130,7 @@
             </div>
         </div>
     </section>    
-    <section class="conditions-section bg-dark text-light pt-5 pb-5" id="rental-conditions">
+    <section class="conditions-section bg-black text-light pt-5 pb-5" id="rental-conditions">
         <div class="container">
             <h2 class="conditions-title mb-4 text-start fs-2 fw-bold">Conditii de Inchiriere</h2>
             <div class="row">
@@ -163,8 +171,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    
+    </section> 
     <img src="img/mascot.png" alt="Mascot" class="mascot">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

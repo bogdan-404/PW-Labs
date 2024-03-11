@@ -6,6 +6,10 @@ body, html {
     color: #fff;
 }
 
+.bg-black {
+    background-color: #000;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -178,64 +182,16 @@ p {
     align-items: center;
 }
 
-.order-now-section {
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 80px auto;
-    width: 80%;
+.container-order {
+    width: 96vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 30px;
 }
 
-.order-now-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.order-now-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.order-now-text h2 {
-    color: #000;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.order-now-text p {
-    color: #000;
-    margin: 0;
-}
-
-.order-now-form {
-    display: flex;
-    gap: 10px;
-}
-
-.phone-input {
-    padding: 15px;
-    border: 2px solid #000;
-    border-radius: 20px;
-    width: 250px;
-    color: #000;
-    background-color: #f0f0f0;
-}
-
-.order-button {
-    background-color: #37ab77;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 15px 25px;
-}
-
-.order-button:hover {
-    background-color: #2d8f65;
+.card-body {
+    box-sizing: border-box;
+    padding: 20px 60px !important;
 }
 
 @media (max-width: 768px) {
